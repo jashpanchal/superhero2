@@ -1,0 +1,50 @@
+<html>
+    <head><title>Super hero project</title></head>
+    <body style="background-image: url(bg.jpg);background-repeat:no-repeat;background-size: cover;">
+
+        <center>
+    
+        <h2>MINECRAFT</h2>
+    
+        <div id="head_info" class="btn-danger" style="width: 500px; border-style: groove;">
+            <h3 id="cw">Current Width  =40 </h3>
+            <h3 id="ch">Current Height  = 40</h3>
+        </div>
+        
+    <canvas id="myCanvas" width="1000" height="600" style="border-width: 10px; border-style: double; border-color:brown; background-color: skyblue;"></canvas>
+        </center>
+    
+        <script src="fabric.js"></script>
+        <script src="main.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script> 
+        <style>
+            span{color:red;}
+            h3{color: white;}
+            </style>
+            <h3 style="font-size:16px;">Click <span>inside the canvas</span>
+            <ul>
+            <li>And then press any key you will see its ASCII value</li>
+            <li>And if you press any arrow key you will see its ASCII value as well as which arrow key you have pressed</li>
+            <li>And if you press key which we have used in MINECRAFT like <span style="font-size:20px;">r, y, d, g, l, c, b, w</span> you will see its ASCII value as well as which key you have pressed
+            </li>
+            <li>And if you press <span>shift and p together</span> then you will see a different message</li>
+            <li>And if you press <span>shift and m together</span> then you will see a different message</li>
+            <li>And if you press <span>shift</span> then you will see a different message</li>
+            </ul>
+            
+            </h3>
+            <canvas id="myCanvas" width="400" height="300" style="border:1px solid;">
+            </canvas>
+            <h4 id="key_value_h4">ASCII value of the key you just pressed - <span id="key_value"></span></h4>
+            <h4 id="key_arrow"></h4>
+            <script>
+            
+            
+            
+            </script>
+    </body>
+    </html>
